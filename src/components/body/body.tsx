@@ -8,7 +8,7 @@ interface BodyProps {
 export const Body = component$(({ todos }: BodyProps) => {
   return (
     <Host class="main">
-      sdfsf
+      sdfsfdfgdf
       <ul class="todo-list">
         {todos.items.filter(FILTERS[todos.filter]).map((key) => (
           <Item item={key} todos={todos} />
